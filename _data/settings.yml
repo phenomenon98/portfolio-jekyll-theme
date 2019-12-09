@@ -3,8 +3,7 @@
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Blog', url: 'pages/blog.html'}
-- {name: 'About', url: 'pages/about.html'}
+- {name: 'Resume', url: 'pages/about.html'}
 - {name: 'Contact', url: 'pages/contact.html'}
 
 #-------------------------------
@@ -26,7 +25,7 @@ seo:
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-analytics-ua: 'UA-112060364-3'
+google-analytics-ua: ''
 
 #-------------------------------
 # Disqus Section
@@ -47,8 +46,7 @@ about: >
 contact: >
   # Contact
 
-  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
-
+  Please contact me [through my email](mailto:rmenon1998@gmail.com) or [connect with me on Linkedin](https://www.linkedin.com/in/rahulmenon98/)
 #-------------------------------
 # Work Section
 
@@ -63,10 +61,8 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+- {icon: 'github', link: 'https://github.com/phenomenon98'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/rahulmenon98/'}
+- {icon: 'envelope', link: 'mailto:rmenon1998@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

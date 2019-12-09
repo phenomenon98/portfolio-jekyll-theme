@@ -3,8 +3,7 @@
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Resume', url: 'pages/resume.html'}
-- {name: 'Contact', url: 'pages/contact.html'}
+- {name: 'About', url: 'pages/about.html'}
 
 #-------------------------------
 # SEO Section
@@ -38,16 +37,17 @@ disqus:
 #-------------------------------
 # About Section
 
-resume: >
-  # Resume
+
+about: >
   
-  [Resume](resume.jpg)
-contact: >
-  # Contact
+  My Name is Rahul Menon. I am a Computer Science student studying in the National Institute of Technology, Calicut. I am passionate about using 
+  Data Science and Machine Learning to solve interesting and meaningful problems. 
 
-  Please contact me [through my email](mailto:rmenon1998@gmail.com) or [connect with me on Linkedin](https://www.linkedin.com/in/rahulmenon98/)
+  My [Resume](resume.jpg)
+  
+  Please contact me through my [email](mailto:rmenon1998@gmail.com) or connect with me on [Linkedin](https://www.linkedin.com/in/rahulmenon98/)
 
-  [Resume](resume.jpg)
+  
 
 #-------------------------------
 # Work Section

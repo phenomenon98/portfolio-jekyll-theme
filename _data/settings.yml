@@ -40,8 +40,9 @@ disqus:
 
 resume: >
   # Resume
+  [Test2](phenomenon98.github.io/data/dog.jpg)
   [Test](dog.jpg)
-  
+
   ![Drag Racing](dog.jpg)
 contact: >
   # Contact

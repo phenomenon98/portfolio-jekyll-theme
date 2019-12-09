@@ -41,8 +41,7 @@ disqus:
 resume: >
   # Resume
 
-  {% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
-
+  ![Drag Racing](assets/img/projects/proj-1/dog.jpg)
 contact: >
   # Contact
 

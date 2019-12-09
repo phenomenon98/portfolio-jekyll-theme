@@ -12,7 +12,7 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		           "Rahul Menon"
+title:		           "Portfolio"
 description:	       "Powered by Jekyll and GitHub Pages"
 author:              "Rahul Menon"
 

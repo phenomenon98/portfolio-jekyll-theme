@@ -12,8 +12,8 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		           "Portfolio Jekyll Theme"
+title:		           "Rahul Menon"
 description:	       "Powered by Jekyll and GitHub Pages"
-author:              "Paul Le"
+author:              "Rahul Menon"
 
 theme: jekyll-theme-slate

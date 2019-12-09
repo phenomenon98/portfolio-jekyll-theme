@@ -40,8 +40,9 @@ disqus:
 
 resume: >
   # Resume
-
-  ![Drag Racing](assets/img/projects/proj-1/dog.jpg)
+  [Test](dog.jpg)
+  
+  ![Drag Racing](dog.jpg)
 contact: >
   # Contact
 

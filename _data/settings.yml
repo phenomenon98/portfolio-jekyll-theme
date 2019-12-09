@@ -41,12 +41,12 @@ disqus:
 about: >
   
   # About Me
-
+  <p>
   My Name is Rahul Menon. I am a Computer Science student studying in the National Institute of Technology, Calicut. I am passionate about using 
-  Data Science and Machine Learning to solve interesting and meaningful problems. 
+  Data Science and Machine Learning to solve interesting and meaningful problems. </p>
 
   My [Resume](resume.jpg)
-
+  <br>
   Please contact me through my [email](mailto:rmenon1998@gmail.com) or connect with me on [Linkedin](https://www.linkedin.com/in/rahulmenon98/)
 
   

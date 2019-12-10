@@ -32,7 +32,7 @@ The resulting dataset was filtered to contain just the top ten attractions of ea
 The neighborhoods were initially plotted on a map 
 <br>
 
-<!--	{% include image.html image="projects/proj-2/stretch.jpg" %}-->
+{% include image.html image="projects/proj-2/mlc1.png" %}
 
 The number of venue categories for each neighborhood was displayed. It was found that there were 172 unique categories.
 <br>

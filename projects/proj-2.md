@@ -71,7 +71,7 @@ DBSCAN : 3.4678885613218626<br>
 Agglomerative Clustering : 1.3956784752393547<br>
 **Inference**<br>
 DBSCAN seems to do best according to metrics as it has the best Silhouette Score as well as the second best Davies-Bouldin Score. However, it splits the dataset into 2 clusters which is too generalized. K Medoids offers the best Davies-Bouldin Score so it its results can be considered for further analysis.
-{% include image.html url="https://github.com/phenomenon98/coursera-ds-finalproject/blob/master/MLC.ipynb" image="projects/proj-2/mlc4.png" %}<br><br>
+{% include image.html text="View notebook" url="https://github.com/phenomenon98/coursera-ds-finalproject/blob/master/MLC.ipynb" image="projects/proj-2/mlc4.png" %}<br><br>
 **Discussion**<br>
 We can analyze the resulting clusters based on what our needs are. For aspiring entrepreneurs it can serve as a useful metric to predict the success of their venture based on what are the other popular attractions in the area. For people considering moving into a neighborhood they can check what other neighborhoods are similar to theirs, allowing them to account for other factors such as price or distance to workplace.<br><br>
 

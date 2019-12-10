@@ -8,7 +8,7 @@ title: 'Clustering Bangalore's Neighborhoods
 This was the capstone assignment in Coursera's Data Science Professional course.
 <br>
 
-### Background
+**Background**<br>
 Bangalore (Bengaluru) is a bustling metropolis of India. People from all walks of life find their way into this diverse city. Due to a large tech industry that creates thousands of jobs a year, there is a huge influx in population. 
 <br>
 

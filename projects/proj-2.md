@@ -17,7 +17,7 @@ Every person that moves in is faced with the question of where to stay. One majo
 When business owners determine the location of their store/business they need to look into what other attractions offer. Lack of similar businesses may offer a competitive advantage but might indicate a lack of consumer interest. Similarly a lot of similar businesses can mean either there is a lot of demand and more businesses are welcome or that the market has become saturated.
 <br>
 
-#### Interest
+##### Interest
 Neighborhoods analysis is can be an important tool for businesses in determining where to open their shop. It can also help people moving into a new area find similar neighborhoods that they can choose from
 We will be clustering the different neighborhoods in Bangalore based on their 10 most popular attractions.
 <br>

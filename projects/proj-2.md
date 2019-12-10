@@ -36,7 +36,7 @@ The neighborhoods were initially plotted on a map
 
 The number of venue categories for each neighborhood was displayed. It was found that there were 172 unique categories.
 <br>
-<!--{% include image.html image="projects/proj-2/stretch.jpg" %}-->
+{% include image.html image="projects/proj-2/mlc2.png" %}
 
 The categories were then one-hot encoded as clustering is not meaningful when done on categorical data.  
 <br>
@@ -45,7 +45,7 @@ The categories were then one-hot encoded as clustering is not meaningful when do
 #### Clustering 
 **K Means Clustering**<br>
 K means clustering was applied to the dataset with varying values of k and the mean squared errors were plotted. There were 104 values in the dataset so the value of k was iterated between 2 and 11 (square root of 104 is 10.2).  The resulting elbow plot was inconclusive so the silhouette score was computed for various values of k. k=8 was determined to be the best choice as it had the highest silhouette score. The resulting clusters were visualized using folium.
-<!--{% include image.html image="projects/proj-2/stretch.jpg" %}-->
+{% include image.html image="projects/proj-2/mlc3.png" %}
 **K Medoids Clustering**<br>
 K Medoids clustering aims to minimize the sum of dissimilarities between the centroid of each cluster and points labelled to be in a cluster. It was implemented using the sklearn.extra.clustering library. 
 The optimal value of k was determined using the elbow method. There were 2 distinct elbows at k=2 and k=6, so clustering was done using both these points. k=6 makes more sense in this context as it splits the database into a larger number of clusters which is more meaningful. <br>

@@ -60,13 +60,13 @@ Internal and external metrics were used to compare the various clustering algori
 **Silhouette Scores:**<br>
 The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.<br>
 K Means : 0.19610746739247847<br>
-K Medoids : 0.07733267946208815<br><br>
+K Medoids : 0.07733267946208815<br>
 DBSCAN : 0.1391318150805085<br>
 Agglomerative Clustering : 0.137552821016789<br>
 **Davies-Bouldin Scores:**<br>
-The score is defined as the average similarity measure of each cluster with its most similar cluster, where similarity is the ratio of within-cluster distances to between-cluster distances. Thus, clusters which are farther apart and less dispersed will result in a better score.
-K Means : 1.1792534290426284<br><br><br>
-K Medoids : 3.916227564389721<br><br>
+The score is defined as the average similarity measure of each cluster with its most similar cluster, where similarity is the ratio of within-cluster distances to between-cluster distances. Thus, clusters which are farther apart and less dispersed will result in a better score.<br>
+K Means : 1.1792534290426284<br>
+K Medoids : 3.916227564389721<br>
 DBSCAN : 3.4678885613218626<br>
 Agglomerative Clustering : 1.3956784752393547<br>
 **Inference**<br>

@@ -48,26 +48,26 @@ K means clustering was applied to the dataset with varying values of k and the m
 {% include image.html image="projects/proj-2/stretch.jpg" %}
 **K Medoids Clustering**<br>
 K Medoids clustering aims to minimize the sum of dissimilarities between the centroid of each cluster and points labelled to be in a cluster. It was implemented using the sklearn.extra.clustering library. 
-The optimal value of k was determined using the elbow method. There were 2 distinct elbows at k=2 and k=6, so clustering was done using both these points. k=6 makes more sense in this context as it splits the database into a larger number of clusters which is more meaningful. 
+The optimal value of k was determined using the elbow method. There were 2 distinct elbows at k=2 and k=6, so clustering was done using both these points. k=6 makes more sense in this context as it splits the database into a larger number of clusters which is more meaningful. <br>
 **DBSCAN Clustering**<br>
 DBSCAN stands for Density Based Spatial Clustering of Applications with Noise. It is a density based clustering algorithm, hence the number of clusters are not explicitly inputted. It takes two inputs - epsilon, which is the radius of the circle it considers, and minpts, which is the minimum number of points that need to be inside the circle with radius epsilon for it to be considered a ‘core point’.  It was implemented using the sklearn.clustering library.
-Despite varying the values of epsilon and minpts over a wide range DBSCAN never clustered the data into more than 2 clusters. Thus, the results were not very useful
+Despite varying the values of epsilon and minpts over a wide range DBSCAN never clustered the data into more than 2 clusters. Thus, the results were not very useful.<br>
 **Agglomerative Clustering**<br>
 Agglomerative Clustering is a hierarchical clustering algorithm. The data was clustered into 8 different clusters. The clusters were observed for similarity
 #### Results
 **Evaluation Metrics**<br>
 Internal and external metrics were used to compare the various clustering algorithms and evaluate the quality of the clusters.<br>
 **Silhouette Scores:**<br>
-The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
-K Means : 0.19610746739247847
-K Medoids : 0.07733267946208815
-DBSCAN : 0.1391318150805085
+The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.<br>
+K Means : 0.19610746739247847<br>
+K Medoids : 0.07733267946208815<br><br>
+DBSCAN : 0.1391318150805085<br>
 Agglomerative Clustering : 0.137552821016789<br>
 **Davies-Bouldin Scores:**<br>
 The score is defined as the average similarity measure of each cluster with its most similar cluster, where similarity is the ratio of within-cluster distances to between-cluster distances. Thus, clusters which are farther apart and less dispersed will result in a better score.
-K Means : 1.1792534290426284
-K Medoids : 3.916227564389721
-DBSCAN : 3.4678885613218626
+K Means : 1.1792534290426284<br><br><br>
+K Medoids : 3.916227564389721<br><br>
+DBSCAN : 3.4678885613218626<br>
 Agglomerative Clustering : 1.3956784752393547<br>
 **Inference**<br>
 DBSCAN seems to do best according to metrics as it has the best Silhouette Score as well as the second best Davies-Bouldin Score. However, it splits the dataset into 2 clusters which is too generalized. K Medoids offers the best Davies-Bouldin Score so it its results can be considered for further analysis.

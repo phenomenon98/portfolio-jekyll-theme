@@ -78,5 +78,5 @@ DBSCAN seems to do best according to metrics as it has the best Silhouette Score
 **Discussion**<br>
 We can analyze the resulting clusters based on what our needs are. For aspiring entrepreneurs it can serve as a useful metric to predict the success of their venture based on what are the other popular attractions in the area. For people considering moving into a neighborhood they can check what other neighborhoods are similar to theirs, allowing them to account for other factors such as price or distance to workplace.<br><br>
 
-**Conclusion**<br>
+#### Conclusion
 Neighborhood Analysis can be a valuable step in making decisions for business and personal reasons. There are several different clustering algorithms. There is no 'one-size-fits-all' approach to clustering. Instead we must experiment with various clustering algorithms and use metrics to determine which algorithm yields the best results. Once we cluster neighborhoods we can try to identify patterns within the cluster or perform data analysis and visualization techniques to make better sense of the clusters. We can then use this information to guide our decision making process.

@@ -7,12 +7,12 @@ We produce unbelievable amounts of garbage and still do not have proper measures
 
 This project aims to solve the fundamental problem of waste segregation using **Deep Learning**. We want to develop Computer Vision technologies that can classify the category that individual garbage pieces belong to. This can then be implemented in smart waste disposal systems, either in the form of smart bin that immediately sorts garbage into the category it belongs, or as a additional module in existing garbage processing facilities.
 <br>
-#### Work Done So Far
+**Work done so far:**
 
 #### Literature Review
  Looked into existing smart waste disposal systems and identified potential improvements that could be made. Shortlisted various Image processing and Deep Learning techniques that may help us.
 
-#### Obtained Initial Dataset
+#### Initial Dataset
  Dataset was btained from the trashnet Github repository (https://github.com/garythung/trashnet). Contains images split into 6 different classes: glass, paper, cardboard, plastic, metal, and other trash . Currently, the dataset consists of 2527 images: <br>
  * 501 glass 
  * 594 paper 
@@ -39,7 +39,6 @@ pic of ui
 -->
 
 ## Designing a Smart Bin Prototype
-<br>
 
 The high level idea is that it should look and work like a regular garbage bin. 
 #### Hardware Used

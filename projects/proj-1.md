@@ -23,7 +23,7 @@ This project aims to solve the fundamental problem of waste segregation using **
 
  The pictures were taken by placing the object on a white poster-board and using sunlight and/or room lighting . The pictures have been resized down to 512 x 384. The devices used were Apple iPhone 7 Plus, Apple iPhone 5S, and Apple iPhone SE. 
 
-### Model v1
+#### Model v1
 We attempted training our dataset on existing Neural architectures such as VGG19. However due to computational constraints this approach was soon abandoned. We tried training the data on simple CNNs built from scratch but the accuracy was too low.
 
 #### Model v2

@@ -1,18 +1,17 @@
 ---
 layout: post
-title: 'Smart Bin for Garbage Segregation'
 ---
-
+## Deep Learning for Garbage Segregation
 We produce unbelievable amounts of garbage and still do not have proper measures in place to deal with it. The amount of waste generated has tripled since 1960, leading to devastating effects for the environment. Segregating waste for further processing is the first major bottleneck in the recycling process. This task is usually carried out by hand. Automating it would greatly help reduce the cost and time taken to recycle items.
 
 This project aims to solve the fundamental problem of waste segregation using **Deep Learning**. We want to develop Computer Vision technologies that can classify the category that individual garbage pieces belong to. This can then be implemented in smart waste disposal systems, either in the form of smart bin that immediately sorts garbage into the category it belongs, or as a additional module in existing garbage processing facilities.
 <br>
-#### Work Done So Far
+## Work Done So Far
 
-##### Literature Review
+#### Literature Review
  Looked into existing smart waste disposal systems and identified potential improvements that could be made. Shortlisted various Image processing and Deep Learning techniques that may help us.
 
-### Obtained Initial Dataset
+#### Obtained Initial Dataset
  Dataset was btained from the trashnet Github repository (https://github.com/garythung/trashnet). Contains images split into 6 different classes: glass, paper, cardboard, plastic, metal, and other trash . Currently, the dataset consists of 2527 images: <br>
  * 501 glass 
  * 594 paper 
@@ -26,19 +25,19 @@ This project aims to solve the fundamental problem of waste segregation using **
 ### Model v1
 We attempted training our dataset on existing Neural architectures such as VGG19. However due to computational constraints this approach was soon abandoned. We tried training the data on simple CNNs built from scratch but the accuracy was too low.
 
-### Model v2
+#### Model v2
 We decided to use Transfer Learning as the primary approach for designing our model. Used Resnet50 pretrained on Imagenet and used Pytorch to retrain the final layer on our dataset. This gave us a very good test accuracy of 94%. This could be improved further with a better pretrained model and by finetuning our hyperparameters.
 !["Confusion Matrix"]("projects/proj-1/cm.png")
 <!--
 	add f1 score
 -->
-### Model Deployment
+#### Model Deployment
 Deployed our model to a simple [website](https://recycle.onrender.com) that can be used for demonstration and testing. 
 <!---
 pic of ui
 -->
 
-### Designing a Smart Bin Prototype
+## Designing a Smart Bin Prototype
 <br>
 
 The high level idea is that it should look and work like a regular garbage bin. 

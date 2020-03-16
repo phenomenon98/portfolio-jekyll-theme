@@ -7,7 +7,7 @@ We produce unbelievable amounts of garbage and still do not have proper measures
 
 This project aims to solve the fundamental problem of waste segregation using **Deep Learning**. We want to develop Computer Vision technologies that can classify the category that individual garbage pieces belong to. This can then be implemented in smart waste disposal systems, either in the form of smart bin that immediately sorts garbage into the category it belongs, or as a additional module in existing garbage processing facilities.
 <br>
-## Work Done So Far
+#### Work Done So Far
 
 #### Literature Review
  Looked into existing smart waste disposal systems and identified potential improvements that could be made. Shortlisted various Image processing and Deep Learning techniques that may help us.

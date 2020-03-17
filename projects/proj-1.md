@@ -6,8 +6,7 @@ title: 'Deep Learning for Garbage Segregation'
 We produce unbelievable amounts of garbage and still do not have proper measures in place to deal with it. The amount of waste generated has tripled since 1960, leading to devastating effects for the environment. Segregating waste for further processing is the first major bottleneck in the recycling process. This task is usually carried out by hand. Automating it would greatly help reduce the cost and time taken to recycle items.
 
 This project aims to solve the fundamental problem of waste segregation using **Deep Learning**. We want to develop Computer Vision technologies that can classify the category that individual garbage pieces belong to. This can then be implemented in smart waste disposal systems, either in the form of smart bin that immediately sorts garbage into the category it belongs, or as a additional module in existing garbage processing facilities.
-<br>
-**Work done so far:**
+### Work Done So Far
 
 #### Literature Review
  Looked into existing smart waste disposal systems and identified potential improvements that could be made. Shortlisted various Image processing and Deep Learning techniques that may help us.
@@ -65,4 +64,4 @@ Running our model on the Raspberry Pi to classify images in real-time was imprac
 
 After every classification the image, coresponding label and a timestamp is sent to a Firebase database. This allows us to retrain our model on images taken by our camera in our lighting and background conditions, which should significantly improve our accuracy.
 
-### Use in conveyor belt
+#### Use in conveyor belt
